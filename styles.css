@@ -1,0 +1,63 @@
+body
+{
+    background-color: orange;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header h1
+{
+    text-align: center;
+}
+header img
+{
+    width: 90px;
+    height: 90px;
+}
+nav
+{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main
+{
+    display: flex;
+    gap: 20px;
+}
+main img
+{
+    width: 180px;
+    height: 280px;
+    justify-content: flex-start;
+    
+}
+aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+}
+article h1
+{
+    text-align: center;
+}
+footer
+{
+    border: 2px solid black;
+    text-align: center;
+   margin-top: 20px;
+}
